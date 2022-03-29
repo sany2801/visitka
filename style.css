@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+.wrapper{
+    /* background-color: aquamarine; */
+    max-width: 900px;
+    width: 90%;
+    margin: 200px auto;
+    /* padding: 2rem; */
+    /* background-color: aquamarine; */
+}
+.messenger{
+    width: auto;
+    display: flex;
+    justify-content:space-evenly;
+}
+.messenger img{
+    /* width: 35px;     */
+    margin: 0.2rem;
+
+}
+.tellegram, .viber{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    border-radius: 13px;
+
+}
+.tellegram{
+    background:linear-gradient(180deg, #20A0E1 0%, rgba(32, 160, 225, 0.4) 100%);;
+}
+.viber{
+    background: linear-gradient(180deg, #9069AE 0%, #9069AE 0.01%, rgba(144, 105, 174, 0.4) 100%);
+}
+.logo img{
+    width: 100%;
+}
+.tittle{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Kelly Slab', cursive;
+}
+.profil{
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    font-family: 'Kelly Slab', cursive;
+    width: 75%;
+    margin: 1.5rem;
+    font-size: 45px;
+    font-weight: 900;
+}
+.avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(img/avatar.jpg);
+    background-size:cover;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    font-size: 34px;
+    font-weight: 700;
+}
+.site{
+    border-radius: 10px;
+    width: 500px;
+    height: 50px;
+    background-color: black;
+}
+.site a{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.footer{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer p{
+    font-size: 30px;
+}
